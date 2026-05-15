@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 150" width="500" height="150" role="img" aria-label="Portal do Curso">
+  <title>Portal do Curso</title>
+  <defs>
+    <linearGradient id="playGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F97316"/>
+      <stop offset="55%" stop-color="#FB923C"/>
+      <stop offset="100%" stop-color="#FBBF24"/>
+    </linearGradient>
+    <linearGradient id="playInner" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FDE047"/>
+      <stop offset="100%" stop-color="#FACC15"/>
+    </linearGradient>
+    <linearGradient id="capTop" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3B82F6"/>
+      <stop offset="100%" stop-color="#1E40AF"/>
+    </linearGradient>
+    <linearGradient id="capBand" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1E40AF"/>
+      <stop offset="100%" stop-color="#172554"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Play button: rounded right-pointing triangle -->
+  <path d="M 27 38
+           L 112 76
+           Q 122 81 112 86
+           L 27 124
+           Q 16 124 16 113
+           L 16 49
+           Q 16 38 27 38 Z"
+        fill="url(#playGrad)"/>
+
+  <!-- Inner play (highlight) -->
+  <path d="M 40 58
+           L 90 80
+           Q 96 83 90 86
+           L 40 108
+           Q 34 108 34 103
+           L 34 63
+           Q 34 58 40 58 Z"
+        fill="url(#playInner)" opacity="0.9"/>
+
+  <!-- Cap band (head piece) -->
+  <path d="M 60 58
+           L 148 58
+           L 142 72
+           Q 104 80 66 72 Z"
+        fill="url(#capBand)"/>
+
+  <!-- Mortarboard (top board) -->
+  <path d="M 104 22
+           L 168 48
+           L 104 74
+           L 40 48 Z"
+        fill="url(#capTop)"/>
+
+  <!-- Mortarboard highlight -->
+  <path d="M 104 27
+           L 160 48
+           L 104 69
+           L 48 48 Z"
+        fill="#60A5FA" opacity="0.28"/>
+
+  <!-- Tassel button -->
+  <circle cx="158" cy="48" r="3" fill="#FBBF24"/>
+  <!-- Tassel cord -->
+  <path d="M 158 51 Q 163 62 159 74"
+        stroke="#FBBF24" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <!-- Tassel tuft -->
+  <path d="M 153 74 L 159 90 L 165 74 Z" fill="#FBBF24"/>
+  <path d="M 156 76 L 159 88 M 159 76 L 159 89 M 162 76 L 159 88"
+        stroke="#F59E0B" stroke-width="0.8" stroke-linecap="round" fill="none"/>
+
+  <!-- Wordmark: Portal -->
+  <text x="195" y="70"
+        font-family="'Montserrat', 'Arial Black', 'Helvetica Neue', sans-serif"
+        font-weight="900"
+        font-size="50"
+        fill="#1E3A8A"
+        letter-spacing="-1.8">Portal</text>
+
+  <!-- Wordmark: do -->
+  <text x="197" y="108"
+        font-family="'Montserrat', Arial, sans-serif"
+        font-weight="600"
+        font-size="24"
+        fill="#F97316">do</text>
+
+  <!-- Wordmark: Curso -->
+  <text x="237" y="122"
+        font-family="'Montserrat', 'Arial Black', 'Helvetica Neue', sans-serif"
+        font-weight="900"
+        font-size="52"
+        fill="#F97316"
+        letter-spacing="-2.2">Curso</text>
+</svg>

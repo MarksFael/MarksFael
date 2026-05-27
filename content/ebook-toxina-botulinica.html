@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Toxina Botulínica — Conteúdo extraído</title>
+<style>
+  :root {
+    --bg: #fafaf9; --fg: #1f2937; --muted: #6b7280; --line: #e5e7eb;
+    --accent: #4f46e5; --accent-soft: #eef2ff; --warn-bg: #fff7ed; --warn-line: #fdba74;
+    --code-bg: #fee2e2; --code-fg: #b91c1c; --maxw: 820px;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0; background: var(--bg); color: var(--fg);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.65; font-size: 17px;
+  }
+  .wrap { display: flex; gap: 32px; max-width: 1200px; margin: 0 auto; padding: 24px 20px 80px; }
+  nav.toc {
+    flex: 0 0 260px; position: sticky; top: 16px; align-self: flex-start;
+    max-height: calc(100vh - 32px); overflow-y: auto; font-size: 14px;
+    border: 1px solid var(--line); border-radius: 12px; background: #fff; padding: 14px 16px;
+  }
+  nav.toc .toctitle { font-weight: 700; font-size: 13px; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); margin-bottom: 8px; }
+  nav.toc ul { list-style: none; margin: 0; padding-left: 0; }
+  nav.toc ul ul { padding-left: 14px; }
+  nav.toc li { margin: 3px 0; }
+  nav.toc a { color: var(--fg); text-decoration: none; }
+  nav.toc a:hover { color: var(--accent); }
+  main { flex: 1 1 auto; max-width: var(--maxw); background: #fff; border: 1px solid var(--line); border-radius: 14px; padding: 36px 44px; }
+  h1 { font-size: 30px; line-height: 1.25; margin: 0 0 6px; }
+  h2 { font-size: 23px; margin: 38px 0 12px; padding-top: 14px; border-top: 2px solid var(--accent-soft); }
+  h3 { font-size: 19px; margin: 26px 0 8px; color: #374151; }
+  p { margin: 10px 0; }
+  a { color: var(--accent); }
+  table { border-collapse: collapse; width: 100%; margin: 14px 0; font-size: 15px; }
+  th, td { border: 1px solid var(--line); padding: 8px 11px; text-align: left; vertical-align: top; }
+  th { background: var(--accent-soft); }
+  tr:nth-child(even) td { background: #fafafa; }
+  blockquote { margin: 16px 0; padding: 12px 16px; background: var(--warn-bg); border-left: 4px solid var(--warn-line); border-radius: 0 8px 8px 0; color: #7c2d12; }
+  blockquote p { margin: 6px 0; }
+  code { background: var(--code-bg); color: var(--code-fg); padding: 1px 6px; border-radius: 5px; font-size: 14px; font-weight: 600; }
+  hr { border: none; border-top: 1px solid var(--line); margin: 26px 0; }
+  ul, ol { padding-left: 22px; }
+  li { margin: 4px 0; }
+  .banner { background: var(--accent-soft); border: 1px solid #c7d2fe; border-radius: 12px; padding: 12px 16px; font-size: 14px; color: #3730a3; margin-bottom: 22px; }
+  @media (max-width: 860px) {
+    .wrap { flex-direction: column; padding: 14px 12px 60px; }
+    nav.toc { position: static; flex: none; max-height: none; }
+    main { padding: 22px 18px; border-radius: 12px; }
+    body { font-size: 16px; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <nav class="toc"><div class="toc"><span class="toctitle">Conteúdo</span><ul>
+<li><a href="#toxina-botulinica-manuscrito-consolidado">Toxina Botulínica — Manuscrito Consolidado</a><ul>
+<li><a href="#parte-1-farmacologia-e-unidades">Parte 1 — Farmacologia e unidades</a><ul>
+<li><a href="#11-unidades-americanas-e-unidades-speywood">1.1 Unidades Americanas e Unidades Speywood</a></li>
+<li><a href="#12-conversao-da-dysport">1.2 Conversão da Dysport</a></li>
+<li><a href="#13-halo-de-acao">1.3 Halo de ação</a></li>
+<li><a href="#14-a-dysport-e-mais-potente-ou-tem-maior-halo-de-acao">1.4 A Dysport é mais potente ou tem maior halo de ação?</a></li>
+</ul>
+</li>
+<li><a href="#parte-2-reconstituicao">Parte 2 — Reconstituição</a><ul>
+<li><a href="#21-o-que-e">2.1 O que é</a></li>
+<li><a href="#22-cuidados-com-o-diluente">2.2 Cuidados com o diluente</a></li>
+<li><a href="#23-tecnica-de-preparo">2.3 Técnica de preparo</a></li>
+<li><a href="#24-tipos-seca-tradicional">2.4 Tipos: seca × tradicional</a></li>
+<li><a href="#25-qual-reconstituicao-usar">2.5 Qual reconstituição usar?</a></li>
+</ul>
+</li>
+<li><a href="#parte-3-materiais-utilizados-na-aplicacao">Parte 3 — Materiais utilizados na aplicação</a></li>
+<li><a href="#parte-4-contagem-de-unidades-nas-seringas">Parte 4 — Contagem de unidades nas seringas</a><ul>
+<li><a href="#41-seringa-de-30u-03-ml-30-tracos-marca-de-1-em-1">4.1 Seringa de 30U (0,3 ml — 30 traços, marca de 1 em 1)</a></li>
+<li><a href="#42-seringa-de-50u-05-ml-50-tracos-marca-de-1-em-1">4.2 Seringa de 50U (0,5 ml — 50 traços, marca de 1 em 1)</a></li>
+<li><a href="#43-seringa-de-100u-1-ml-pode-ter-50-ou-100-tracos">4.3 Seringa de 100U (1 ml — pode ter 50 ou 100 traços)</a></li>
+</ul>
+</li>
+<li><a href="#parte-5-marcas-de-toxina-botulinica-autorizadas-no-brasil">Parte 5 — Marcas de toxina botulínica autorizadas no Brasil</a></li>
+<li><a href="#parte-6-seguranca-e-falsificacoes">Parte 6 — Segurança e falsificações</a><ul>
+<li><a href="#61-israderm-toxina-proibida-no-brasil">6.1 Israderm — toxina proibida no Brasil</a></li>
+<li><a href="#62-cuidado-com-as-falsificacoes">6.2 Cuidado com as falsificações</a></li>
+<li><a href="#63-usar-israderm-e-crime-grave">6.3 Usar Israderm é crime grave</a></li>
+<li><a href="#64-intercorrencia-apos-uso-de-tba-sem-registro">6.4 Intercorrência após uso de TBA sem registro</a></li>
+<li><a href="#65-tba-de-procedencia-ignorada">6.5 TBA de procedência ignorada</a></li>
+</ul>
+</li>
+<li><a href="#parte-7-suplementacao-fitase-e-zinco">Parte 7 — Suplementação (Fitase e Zinco)</a></li>
+<li><a href="#parte-8-anatomia-muscular-fundamentos">Parte 8 — Anatomia muscular (fundamentos)</a><ul>
+<li><a href="#81-origem-e-insercao">8.1 Origem e inserção</a></li>
+<li><a href="#82-profundidade-da-aplicacao">8.2 Profundidade da aplicação</a></li>
+</ul>
+</li>
+<li><a href="#parte-9-avaliacao-clinica-do-paciente">Parte 9 — Avaliação clínica do paciente</a><ul>
+<li><a href="#91-rugas-estaticas-dinamicas">9.1 Rugas estáticas × dinâmicas</a></li>
+<li><a href="#92-hipercinetico-normocinetico">9.2 Hipercinético × normocinético</a></li>
+<li><a href="#93-anestesicos-topicos-formulacoes-de-laboratorio">9.3 Anestésicos tópicos — formulações de laboratório</a></li>
+</ul>
+</li>
+<li><a href="#parte-10-musculos-e-aplicacao-por-regiao">Parte 10 — Músculos e aplicação por região</a><ul>
+<li><a href="#101-testa-musculo-occipitofrontal-ventre-frontal">10.1 Testa — músculo occipitofrontal (ventre frontal)</a></li>
+<li><a href="#102-glabela">10.2 Glabela</a></li>
+<li><a href="#103-periorbital-musculo-orbicular-do-olho-pes-de-galinha">10.3 Periorbital — músculo orbicular do olho ("pés de galinha")</a></li>
+<li><a href="#104-musculos-zigomaticos">10.4 Músculos zigomáticos</a></li>
+<li><a href="#105-palpebra-inferior">10.5 Pálpebra inferior</a></li>
+<li><a href="#106-labio-superior-e-sorriso-gengival">10.6 Lábio superior e sorriso gengival</a></li>
+<li><a href="#107-nariz-musculo-nasal-e-bunny-lines">10.7 Nariz — músculo nasal e "bunny lines"</a></li>
+</ul>
+</li>
+<li><a href="#fontes-citadas-no-material">Fontes citadas no material</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</nav>
+  <main>
+    <div class="banner">Prévia do conteúdo extraído — visual neutro, só para leitura/revisão. O app final terá identidade própria.</div>
+    <h1 id="toxina-botulinica-manuscrito-consolidado">Toxina Botulínica — Manuscrito Consolidado</h1>
+<blockquote>
+<p><strong>Origem:</strong> texto extraído via OCR de 108 screenshots (IMG_2319–2426) de um vídeo
+que apresenta páginas do ebook de Toxina Botulínica (autoria atribuída a
+<strong>Tiago Drummond de Assis</strong>). O ebook original tem ~236 páginas; estes prints
+cobrem parte delas, fora de ordem. O conteúdo abaixo foi reorganizado por tema.</p>
+<p><strong>⚠️ Revisão clínica obrigatória:</strong> o OCR pode ter cortado ou embaralhado
+<strong>números, doses, unidades e temperaturas</strong>. Nada foi inventado — trechos
+incertos estão marcados com <code>[revisar]</code> ou <code>[...]</code>. Confira todos os valores
+contra o material original antes de qualquer uso/publicação.</p>
+</blockquote>
+<hr />
+<h2 id="parte-1-farmacologia-e-unidades">Parte 1 — Farmacologia e unidades</h2>
+<h3 id="11-unidades-americanas-e-unidades-speywood">1.1 Unidades Americanas e Unidades Speywood</h3>
+<p>As unidades na toxina botulínica referem-se a medidas padronizadas usadas para
+quantificar a atividade biológica da toxina. Essas medidas ajudam a determinar a
+dosagem apropriada para diferentes aplicações médicas e estéticas. As duas mais
+comuns são as <strong>Unidades Americanas</strong> e as <strong>Unidades Speywood</strong>.</p>
+<ul>
+<li>Usam <strong>unidades Americanas</strong>: Botulift, Xeomin, Botox, Nabota, Botulim e Prosigne.</li>
+<li>Usa <strong>unidade Speywood</strong>: Dysport.</li>
+</ul>
+<h3 id="12-conversao-da-dysport">1.2 Conversão da Dysport</h3>
+<p>As unidades de TBA <strong>não são intercambiáveis</strong>. Diversos autores apontam que a
+melhor conversão entre Unidades Americanas × Speywood seria <strong>1:2,5</strong> — ou seja, a
+cada 1 unidade de Botox/Nabota teríamos 2,5 unidades de Dysport.</p>
+<ul>
+<li>1 unidade americana = 2,5 unidades Speywood</li>
+<li>Dysport 300 unidades ≈ 120 unidades americanas</li>
+<li>Dysport 500 unidades ≈ 200 unidades americanas</li>
+</ul>
+<h3 id="13-halo-de-acao">1.3 Halo de ação</h3>
+<p>O "halo de ação" refere-se à área ao redor do ponto de injeção que também
+experimenta efeito paralisante, pois a toxina se espalha de forma limitada a
+partir do ponto de aplicação. É um conceito importante no planejamento: os efeitos
+podem afetar áreas vizinhas, então deve-se considerar como o halo influencia o
+resultado final.</p>
+<h3 id="14-a-dysport-e-mais-potente-ou-tem-maior-halo-de-acao">1.4 A Dysport é mais potente ou tem maior halo de ação?</h3>
+<p>Inúmeros pesquisadores apontam que a Dysport <strong>não</strong> se difunde mais nem é mais
+potente que as demais marcas. Para resultado equivalente, ela precisa ser usada na
+equivalência correta (<strong>2,5:1</strong>). Quando se usa equivalência maior (4:1 ou 3:1),
+naturalmente há aumento do halo e da potência, pois se entrega mais TBA. Quanto ao
+halo de ação, há quase um consenso de que o <strong>Xeomin</strong> tem halo menor que as demais.</p>
+<p><strong>Estudo HIS:</strong> comparou o diâmetro do halo de inibição da sudorese (HIS) de 5 TBA
+comerciais, em cinco doses, ao longo de 6 meses. Concluiu que quanto maior o número
+de unidades, maior o HIS para todas. Botox, Botulift, Dysport e Prosigne
+apresentaram HIS semelhantes; <strong>Xeomin teve o menor HIS</strong> em qualquer dosagem e
+período. <em>(Fonte: Costa et al. — citação parcial)</em></p>
+<hr />
+<h2 id="parte-2-reconstituicao">Parte 2 — Reconstituição</h2>
+<h3 id="21-o-que-e">2.1 O que é</h3>
+<p>Reconstituição é o processo de preparar a toxina a partir de sua forma desidratada
+(pó liofilizado) para uso. A TBA é fornecida liofilizada para garantir estabilidade
+no armazenamento e transporte. Adiciona-se um líquido estéril (geralmente solução
+salina) ao frasco; o líquido reconstitui o pó, formando solução injetável.</p>
+<h3 id="22-cuidados-com-o-diluente">2.2 Cuidados com o diluente</h3>
+<ul>
+<li>Use <strong>Cloreto de Sódio 0,9% de 10 ml</strong>; descarte o que sobrar após o uso.</li>
+<li>Evite frascos grandes (250 ml, 500 ml): furar o frasco várias vezes para retirar
+  pequenas quantidades aumenta o risco de contaminação.</li>
+<li>Água estéril pode ser usada, mas promove quadro álgico intenso.</li>
+<li>Leia atentamente o frasco antes da reconstituição (há relatos de profissionais que
+  reconstituíram com glicose por engano).</li>
+</ul>
+<h3 id="23-tecnica-de-preparo">2.3 Técnica de preparo</h3>
+<ul>
+<li>Segurar o êmbolo da seringa para o vácuo não puxar o líquido de uma vez;</li>
+<li>Introduzir o líquido lentamente;</li>
+<li>Introduzir o líquido pela parede do frasco, em ângulo de <strong>45°</strong>;</li>
+<li>Girar o frasco lentamente para espalhar o líquido no interior;</li>
+<li>Após aspirar para a seringa, <strong>não bater</strong> na seringa para tirar bolhas de ar.</li>
+</ul>
+<h3 id="24-tipos-seca-tradicional">2.4 Tipos: seca × tradicional</h3>
+<p>Tema controverso. As principais são a <strong>reconstituição seca</strong> (menos líquido) e a
+<strong>tradicional/molhada</strong> (o dobro de líquido da seca).</p>
+<p><strong>BOTOX (unidades americanas):</strong></p>
+<table>
+<thead>
+<tr>
+<th>Frasco</th>
+<th>Seca</th>
+<th>Tradicional</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>50 U</td>
+<td>0,5 ml</td>
+<td>1 ml</td>
+</tr>
+<tr>
+<td>100 U</td>
+<td>1 ml</td>
+<td>2 ml</td>
+</tr>
+<tr>
+<td>200 U</td>
+<td>2 ml</td>
+<td>4 ml</td>
+</tr>
+</tbody>
+</table>
+<p><strong>DYSPORT</strong> (lembrando: 300 Speywood ≈ 120 U americanas; 500 Speywood ≈ 200 U
+americanas). Após reconstituída, conta-se a Dysport na seringa como se fosse em
+unidades americanas.</p>
+<table>
+<thead>
+<tr>
+<th>Frasco</th>
+<th>Seca</th>
+<th>Tradicional</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>300 Speywood (≈120 U)</td>
+<td>1,2 ml</td>
+<td>2,4 ml</td>
+</tr>
+<tr>
+<td>500 Speywood (≈200 U)</td>
+<td><code>[revisar]</code></td>
+<td>4 ml</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>Obs.: em um frasco de 500 unidades <strong>não cabem</strong> 4 ml de soro fisiológico.</p>
+</blockquote>
+<h3 id="25-qual-reconstituicao-usar">2.5 Qual reconstituição usar?</h3>
+<p>A escolha é pessoal; ambas são seguras e efetivas.
+- <strong>Seca:</strong> mais fácil de contar na maior parte das seringas; maior eficácia em área concentrada.
+- <strong>Tradicional:</strong> mais fácil de contar na seringa de 100U; em caso de desperdício, perdem-se menos unidades.</p>
+<hr />
+<h2 id="parte-3-materiais-utilizados-na-aplicacao">Parte 3 — Materiais utilizados na aplicação</h2>
+<ul>
+<li><strong>Caneta para resfriamento da pele:</strong> armazenar no freezer por no mínimo 60 min.
+  Encostar a ponta na pele por 5–7 s para analgesia temporária; retirar e aplicar
+  imediatamente. Mantém a eficiência (ponta gelada) por ~25 min, quando deve passar
+  por nova assepsia e voltar ao freezer.</li>
+<li><strong>Termômetro digital:</strong> a maioria das marcas exige refrigeração de <strong>2 ºC a 8 ºC</strong>.
+  É exigência da vigilância sanitária ter termômetro na geladeira, com registro
+  diário da temperatura, para evitar grandes variações. Armazenamento fora do
+  recomendado compromete a eficácia.</li>
+<li><strong>Massageador por vibração:</strong> abordagem simples, segura, eficaz e de baixo custo
+  para reduzir a sensação de dor em áreas sensíveis.</li>
+<li><strong>Lápis dermatográfico:</strong> fundamental para marcar cada local de aplicação, já que
+  cada aplicação é individual (padrão de contração e queixa de cada paciente).</li>
+<li><strong>Seringa de insulina:</strong> com agulha fixa (em tese, zero perdas) ou agulha móvel
+  "zero resíduos". Como a agulha é muito fina, vale trocar o dispositivo durante o
+  procedimento para causar menos desconforto.</li>
+</ul>
+<hr />
+<h2 id="parte-4-contagem-de-unidades-nas-seringas">Parte 4 — Contagem de unidades nas seringas</h2>
+<blockquote>
+<p>Regra geral: <strong>Seca → 1 traço = 1U</strong>; <strong>Tradicional → 2 traços = 1U</strong> (1 traço = 0,5U).</p>
+</blockquote>
+<h3 id="41-seringa-de-30u-03-ml-30-tracos-marca-de-1-em-1">4.1 Seringa de 30U (0,3 ml — 30 traços, marca de 1 em 1)</h3>
+<table>
+<thead>
+<tr>
+<th>Diluente</th>
+<th>Reconstituição</th>
+<th>Valor do traço</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0,5 ml</td>
+<td>Seca</td>
+<td>1 traço = 1U</td>
+</tr>
+<tr>
+<td>1 ml</td>
+<td>Tradicional</td>
+<td>2 traços = 1U</td>
+</tr>
+<tr>
+<td>1 ml</td>
+<td>Seca</td>
+<td>1 traço = 1U</td>
+</tr>
+<tr>
+<td>2 ml</td>
+<td>Tradicional</td>
+<td>2 traços = 1U</td>
+</tr>
+<tr>
+<td>2 ml</td>
+<td>Seca</td>
+<td>1 traço = 1U</td>
+</tr>
+<tr>
+<td>4 ml</td>
+<td>Tradicional</td>
+<td>2 traços = 1U</td>
+</tr>
+</tbody>
+</table>
+<h3 id="42-seringa-de-50u-05-ml-50-tracos-marca-de-1-em-1">4.2 Seringa de 50U (0,5 ml — 50 traços, marca de 1 em 1)</h3>
+<table>
+<thead>
+<tr>
+<th>Diluente</th>
+<th>Reconstituição</th>
+<th>Valor do traço</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0,5 ml</td>
+<td>Seca</td>
+<td>1 traço = 1U</td>
+</tr>
+<tr>
+<td>1 ml</td>
+<td>Tradicional</td>
+<td>2 traços = 1U</td>
+</tr>
+<tr>
+<td>1 ml</td>
+<td>Seca</td>
+<td>1 traço = 1U</td>
+</tr>
+<tr>
+<td>2 ml</td>
+<td>Tradicional</td>
+<td>2 traços = 1U</td>
+</tr>
+<tr>
+<td>2 ml</td>
+<td>Seca</td>
+<td>1 traço = 1U</td>
+</tr>
+<tr>
+<td>4 ml</td>
+<td>Tradicional</td>
+<td>2 traços = 1U</td>
+</tr>
+</tbody>
+</table>
+<h3 id="43-seringa-de-100u-1-ml-pode-ter-50-ou-100-tracos">4.3 Seringa de 100U (1 ml — pode ter 50 ou 100 traços)</h3>
+<p>Pode marcar <strong>de 1 em 1</strong> (100 traços) ou <strong>de 2 em 2</strong> (50 traços).</p>
+<ul>
+<li><strong>Marca de 1 em 1 (100 traços):</strong> entre o 40 e o 50 há 10 traços → 100 traços no total.</li>
+<li><strong>Marca de 2 em 2 (50 traços):</strong> entre o 40 e o 50 há 5 traços → 50 traços no total
+  (1 traço = 2U na seca; 1 traço = 1U na tradicional).</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Diluente</th>
+<th>Reconstituição</th>
+<th>Valor do traço (100 traços)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0,5 ml</td>
+<td>Seca</td>
+<td>1 traço = 0,5U (2 traços = 1U) <code>[revisar]</code></td>
+</tr>
+<tr>
+<td>1 ml</td>
+<td>Tradicional</td>
+<td>2 traços = 1U</td>
+</tr>
+<tr>
+<td>1 ml</td>
+<td>Seca</td>
+<td>1 traço = 1U</td>
+</tr>
+<tr>
+<td>2 ml</td>
+<td>Tradicional</td>
+<td>2 traços = 1U</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="parte-5-marcas-de-toxina-botulinica-autorizadas-no-brasil">Parte 5 — Marcas de toxina botulínica autorizadas no Brasil</h2>
+<blockquote>
+<p>Dados técnicos (temperatura de armazenamento, prazo após preparo, composição).
+Vários campos vieram parcialmente ilegíveis no OCR — confirmar na bula. <code>[revisar]</code></p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>Marca</th>
+<th>Antes do preparo</th>
+<th>Após o preparo</th>
+<th>Prazo após preparo</th>
+<th>Composição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Botox</strong> (100 U)</td>
+<td>Freezer/compart. inferior ou geladeira 2–8 ºC</td>
+<td>Geladeira 2–8 ºC</td>
+<td>Até 3 dias</td>
+<td>Albumina humana + cloreto de sódio</td>
+</tr>
+<tr>
+<td><strong>Dysport</strong></td>
+<td><code>[revisar]</code></td>
+<td>Geladeira 2–8 ºC</td>
+<td>Até 24 h</td>
+<td>Albumina humana + lactose</td>
+</tr>
+<tr>
+<td><strong>Nabota</strong> (100 U)</td>
+<td><code>[revisar]</code></td>
+<td>Geladeira 2–8 ºC</td>
+<td>Até 24 h</td>
+<td>Albumina humana + cloreto de sódio</td>
+</tr>
+<tr>
+<td><strong>Xeomin</strong></td>
+<td>Pode ficar em temp. ambiente*</td>
+<td>Geladeira 2–8 ºC</td>
+<td>Até 24 h</td>
+<td>Albumina humana + sacarose</td>
+</tr>
+<tr>
+<td><strong>Botulift</strong> (100 U)</td>
+<td>Geladeira 2–8 ºC</td>
+<td>Geladeira 2–8 ºC</td>
+<td>Até 7 dias</td>
+<td>Albumina humana + cloreto de sódio</td>
+</tr>
+<tr>
+<td><strong>Botulim</strong></td>
+<td>Geladeira 2–8 ºC</td>
+<td>Geladeira 2–8 ºC</td>
+<td>Até 24 h</td>
+<td>Albumina humana + cloreto de sódio</td>
+</tr>
+<tr>
+<td><strong>Prosigne</strong></td>
+<td>Geladeira 2–8 ºC</td>
+<td>Geladeira 2–8 ºC</td>
+<td>Até 4 h</td>
+<td><code>[revisar]</code></td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>* <strong>Xeomin</strong> pode ser mantida em temperatura ambiente antes da reconstituição;
+nesse caso, reconstituir com soro na mesma temperatura. <strong>O soro fisiológico deve
+estar sempre na mesma temperatura que a toxina.</strong></p>
+</blockquote>
+<hr />
+<h2 id="parte-6-seguranca-e-falsificacoes">Parte 6 — Segurança e falsificações</h2>
+<h3 id="61-israderm-toxina-proibida-no-brasil">6.1 Israderm — toxina proibida no Brasil</h3>
+<p>Comercializada como opção mais acessível, mas <strong>sem estudos/documentação</strong> que
+revelem o conteúdo dos frascos, origem de fabricação e embalagem. Por isso a ANVISA
+não permitiu venda, distribuição, formulação, promoção e utilização. <strong>Seu uso é
+proibido no Brasil.</strong></p>
+<h3 id="62-cuidado-com-as-falsificacoes">6.2 Cuidado com as falsificações</h3>
+<p>Após a repercussão negativa, vendedores passaram a vendê-la com <strong>rótulo de toxinas
+permitidas</strong>, e alguns "profissionais" compram sabendo disso. (O ebook traz o
+registro de uma conversa do autor com um desses vendedores, que oferecia Israderm na
+embalagem de Dysport.)</p>
+<h3 id="63-usar-israderm-e-crime-grave">6.3 Usar Israderm é crime grave</h3>
+<p>Cirurgiã-dentista presa em flagrante pela Polícia Civil por usar marca proibida no
+Brasil. Foram encontrados diversos frascos de Israderm e irregularidades sanitárias.
+Os frascos de Israderm traziam <strong>rótulo de Xeomin</strong> para burlar a fiscalização e
+fazer os pacientes acreditarem que recebiam produto permitido.
+<em>Fonte: pc.rs.gov.br (notícia oficial).</em> <code>[trechos reconstruídos do OCR]</code></p>
+<h3 id="64-intercorrencia-apos-uso-de-tba-sem-registro">6.4 Intercorrência após uso de TBA sem registro</h3>
+<p>Homem de 41 anos deu entrada no PS com edema fronto-orbital grave e lesões na testa
+após injeção de TBA tipo A por um "praticante" conhecido nas redes sociais
+(1 dia antes). Lesão semelhante a abscesso exigiu incisão e drenagem em centro
+cirúrgico; <strong>extensa necrose</strong> exigiu desbridamento até o músculo frontal, com novo
+desbridamento 48 h depois e drenagem de três nódulos purulentos. O praticante não
+era qualificado e a toxina foi comprada online sem controle. <em>Fonte: Cohen (2021).</em></p>
+<h3 id="65-tba-de-procedencia-ignorada">6.5 TBA de procedência ignorada</h3>
+<p>Foto enviada por colega que comprou Nabota de um representante e recebeu o produto
+<strong>sem informações em português</strong>. Não pode ser utilizada nessas condições — pode ser
+classificada como de "procedência ignorada".</p>
+<hr />
+<h2 id="parte-7-suplementacao-fitase-e-zinco">Parte 7 — Suplementação (Fitase e Zinco)</h2>
+<p><strong>Sugestão de protocolo:</strong>
+- <strong>5 dias antes</strong> da aplicação: Zinco (citrato) 50 mg + Fitase 3000 UI — 1 cápsula/dia.
+- <strong>Após</strong> a aplicação: Zinco (bisglicinato) 12 mg — 1 cápsula/dia, por 15 dias.</p>
+<hr />
+<h2 id="parte-8-anatomia-muscular-fundamentos">Parte 8 — Anatomia muscular (fundamentos)</h2>
+<h3 id="81-origem-e-insercao">8.1 Origem e inserção</h3>
+<p>Como regra, os músculos da face <strong>originam-se no osso</strong> e <strong>inserem-se na fáscia
+superficial, derme ou em outros músculos</strong> — por isso a pele se movimenta na
+contração. Na contração, a inserção se aproxima da origem, e as <strong>rugas se formam
+perpendicularmente</strong> à direção da contração: contração vertical → rugas horizontais;
+contração horizontal → rugas verticais. <em>Fonte: Zarins (2021).</em></p>
+<h3 id="82-profundidade-da-aplicacao">8.2 Profundidade da aplicação</h3>
+<ul>
+<li>Aplicação na <strong>origem</strong> (profunda, no osso) → pode ser <strong>profunda</strong>.</li>
+<li>Aplicação na <strong>inserção</strong> (superficial, na pele) → pode ser <strong>mais superficial</strong>.</li>
+<li><strong>Cuidado</strong> com o contato intenso com o osso: a ponta da agulha pode deformar,
+  causando mais desconforto. <em>Fonte: Goodman et al. (2021).</em></li>
+</ul>
+<hr />
+<h2 id="parte-9-avaliacao-clinica-do-paciente">Parte 9 — Avaliação clínica do paciente</h2>
+<h3 id="91-rugas-estaticas-dinamicas">9.1 Rugas estáticas × dinâmicas</h3>
+<ul>
+<li><strong>Estáticas:</strong> presentes mesmo em repouso; resultado do envelhecimento, contração
+  muscular excessiva, perda de colágeno/elastina, exposição solar e fatores
+  ambientais. Mais perceptíveis onde a pele é mais fina (olhos, boca).</li>
+<li><strong>Dinâmicas:</strong> formam-se com os movimentos faciais (sorrir, franzir a testa).
+  Exemplos clássicos: "pés de galinha" e rugas da testa.</li>
+</ul>
+<h3 id="92-hipercinetico-normocinetico">9.2 Hipercinético × normocinético</h3>
+<ul>
+<li><strong>Hipercinético:</strong> atividade muscular facial excessiva; rugas mais proeminentes
+  pela contração repetitiva.</li>
+<li><strong>Normocinético:</strong> atividade muscular dentro do normal; tende a exibir menos rugas
+  dinâmicas.</li>
+</ul>
+<h3 id="93-anestesicos-topicos-formulacoes-de-laboratorio">9.3 Anestésicos tópicos — formulações de laboratório</h3>
+<ul>
+<li>Lidocaína 30% + Procaína 10%</li>
+<li>Tetracaína 25% + Lidocaína 23%</li>
+</ul>
+<hr />
+<h2 id="parte-10-musculos-e-aplicacao-por-regiao">Parte 10 — Músculos e aplicação por região</h2>
+<blockquote>
+<p><strong>Legenda dos mapas:</strong> START = origem do músculo; FINISH = inserção do músculo.
+Doses em U/ponto são médias — <code>[revisar]</code> todos os valores.</p>
+</blockquote>
+<h3 id="101-testa-musculo-occipitofrontal-ventre-frontal">10.1 Testa — músculo occipitofrontal (ventre frontal)</h3>
+<ul>
+<li><strong>Origem:</strong> aponeurose epicraniana.</li>
+<li><strong>Inserção:</strong> pele da fronte; margem supraorbital; corrugador e abaixador do
+  supercílio (entrelaça-se com o prócero e o orbicular do olho).</li>
+<li><strong>Função:</strong> eleva as sobrancelhas, enruga a pele da testa.</li>
+<li><em>(Há também o ventre occipital, com campos ilegíveis no OCR.)</em> <code>[revisar]</code></li>
+</ul>
+<p><strong>Linha de convergência (linha C):</strong> no estudo de Cotofana et al. (2020), a pele da
+testa inferior move-se cranialmente e a superior caudalmente, encontrando-se numa
+linha estática (linha C), identificada em ~61% do comprimento médio da testa.
+Clinicamente, corresponde à segunda linha horizontal da testa de cima para baixo.
+<strong>Injetar acima da linha C pode reduzir o risco de ptose da sobrancelha.</strong></p>
+<p><strong>Padrões de contração frontal</strong> <em>(Braz e Sakuma, 2010)</em> — três padrões:
+- <strong>Total</strong> (mais frequente): rítides horizontais do centro avançam lateralmente
+  além da linha mediopupilar, até o final da cauda das sobrancelhas.
+- <strong>Medial</strong> (2º mais frequente): rítides concentradas na região central, contidas
+  entre as linhas mediopupilares; padrão mais fácil para trabalhar o arqueamento.
+- <strong>Lateral</strong> (menos frequente): rugas predominam nas laterais, após a linha
+  mediopupilar; menor quantidade/intensidade, podendo estar ausentes na região medial.</p>
+<p><strong>Aplicação (frontal):</strong>
+- Respeitar <strong>1 cm</strong> da sobrancelha no rumo da pupila.
+- <strong>1 a 2 cm</strong> entre os pontos, aplicando na parte mais espessa.
+- Seringa na horizontal (<strong>45°</strong>).
+- Média de <strong>10 a 30 U por ponto</strong>. <code>[revisar]</code></p>
+<h3 id="102-glabela">10.2 Glabela</h3>
+<p>Músculos envolvidos:
+- <strong>Prócero</strong> — Origem: osso nasal e parte superior da cartilagem nasal. Inserção:
+  pele entre as sobrancelhas, fundindo-se com a extremidade do frontal. Função: puxa
+  para baixo a extremidade medial da sobrancelha, enrugando a glabela.
+- <strong>Depressor do supercílio</strong> — Origem: processo frontal da maxila. Inserção/Função:
+  <code>[texto cortado no OCR — revisar]</code>.
+- <strong>Corrugador do supercílio</strong> — Origem: osso frontal (extremidade medial dos arcos
+  superciliares). Inserção: superfície profunda da pele, margem supraorbital.
+  Função: <code>[cortado — revisar]</code>.</p>
+<p><strong>Legenda das rugas da glabela:</strong> amarelo = corrugadores; verde = depressor do
+supercílio (principalmente); azul = prócero.</p>
+<p><strong>Profundidade:</strong> na <strong>origem</strong> dos músculos da glabela, aplicação <strong>profunda</strong>. Na
+<strong>inserção do prócero</strong>, pode ser superficial ou profunda. Perto da <strong>inserção dos
+corrugadores</strong>, <strong>não</strong> aplicar profundo (risco de transfixar o músculo e entregar
+TBA na cavidade orbitária). "Superficial" não significa pápula — deve-se passar a derme.</p>
+<p><strong>Aplicação:</strong> agulha a <strong>45° ou 90°</strong> (o autor pinça, entra 90°, solta e aprofunda).
+<strong>Nunca</strong> aplicar com a ponta da agulha voltada para o olho. Média de <strong>20 a 50 U por
+ponto</strong>. <code>[revisar]</code></p>
+<h3 id="103-periorbital-musculo-orbicular-do-olho-pes-de-galinha">10.3 Periorbital — músculo orbicular do olho ("pés de galinha")</h3>
+<ul>
+<li><strong>Origem:</strong> parte orbital (osso frontal — margem orbital medial; ligamento
+  palpebral medial); parte palpebral (ligamento palpebral medial); parte lacrimal
+  (maxila — processo frontal).</li>
+<li><strong>Inserção/Função:</strong> <code>[parcialmente ilegível — revisar]</code>.</li>
+</ul>
+<p><strong>Aplicação:</strong> mesmas recomendações da glabela; agulha a <strong>45° ou 90°</strong>. Evitar a
+ponta voltada para o olho (risco de relaxar o levantador da pálpebra superior ou
+músculos extraoculares). Média de <strong>2 a 4 U por ponto</strong>.</p>
+<p><strong>Área segura (para iniciantes):</strong> a partir do canto do olho, trace uma linha
+horizontal e uma vertical; aplique entre elas. Meça <strong>1 cm (ou um dedo)</strong> do olho
+para achar o ponto. Distância <strong>menor</strong> aumenta o risco de atingir músculo
+extraocular; <strong>maior</strong> aumenta o risco de atingir músculo da movimentação da boca.
+<strong>Sempre sobre a base óssea, nunca dentro da cavidade orbitária</strong> (sempre acima da
+margem orbital).</p>
+<p><strong>Riscos / músculos extraoculares:</strong> aplicação na pálpebra inferior pode atingir o
+<strong>reto inferior</strong>; injeções perto do canto lateral (pés de galinha) podem atingir o
+<strong>reto lateral</strong> → intercorrências (possível <strong>diplopia</strong>). Extraoculares citados:
+reto lateral, reto superior, oblíquo superior, reto medial, reto inferior.</p>
+<p><strong>Erros:</strong> errar direção/local/profundidade pode atingir músculos responsáveis pela
+movimentação da boca.</p>
+<h3 id="104-musculos-zigomaticos">10.4 Músculos zigomáticos</h3>
+<ul>
+<li><strong>Zigomático menor</strong> — Origem: osso zigomático, próximo à sutura
+  zigomaticomaxilar. Inserção: múltiplas inserções na pele (seção média do sulco
+  nasolabial; fibras do orbicular da boca; maioria terminando na parte lateral do
+  lábio). Função: puxa parte do sulco nasolabial e a porção média de um lado do lábio.</li>
+<li><strong>Zigomático maior</strong> — Origem: osso zigomático, próximo à sutura
+  zigomaticotemporal. Inserção: ângulo da boca (modíolo). Função: eleva e puxa o
+  canto da boca.</li>
+</ul>
+<p><strong>Cuidado:</strong> esses músculos ficam próximos e <strong>abaixo</strong> do orbicular do olho. Quanto
+mais se desce em direção ao corpo do osso zigomático, maior a chance de atingir a
+origem deles. Aplicar ao longo de toda a ruga do sorriso, sem conhecimento
+anatômico, certamente atinge os zigomáticos.</p>
+<p><strong>Caso real:</strong> assimetria após erro de aplicação no orbicular do olho —
+comprometimento do levantamento e abertura de um lado da boca (erro ao aplicar no
+ponto mais inferior, atingindo músculos com origem no osso zigomático).</p>
+<h3 id="105-palpebra-inferior">10.5 Pálpebra inferior</h3>
+<p>Logo abaixo do orbicular do olho está o <strong>levantador do lábio superior</strong>; atingi-lo
+pode comprometer o sorriso do paciente.</p>
+<blockquote>
+<p><strong>Curiosidade:</strong> alguns autores afirmam que as covinhas nas bochechas são formadas
+por variações do músculo zigomático maior.</p>
+</blockquote>
+<h3 id="106-labio-superior-e-sorriso-gengival">10.6 Lábio superior e sorriso gengival</h3>
+<p><strong>Sorriso gengival:</strong> a hiperfunção dos músculos do lábio superior (principalmente o
+<strong>levantador do lábio superior</strong>) eleva exageradamente a linha da gengiva, expondo
+tecido gengival em excesso ao sorrir.</p>
+<ul>
+<li><strong>Levantador do lábio superior</strong> — Origem: margem infraorbital medial (acima do
+  forame infraorbital). Inserção: porção médio-lateral da pele do lábio superior.
+  Função: eleva e everte o lábio superior.</li>
+<li><strong>Levantador do lábio superior e asa do nariz (LLSAN)</strong> — Origem: periósteo do
+  processo frontal da maxila. Inserção: asa do nariz e parte lateral do lábio
+  superior. Função: movimentar os lábios e elevar a asa do nariz.</li>
+</ul>
+<p><strong>Aplicação:</strong> a partir do meio da asa do nariz, meça <strong>1 cm horizontalmente</strong> e
+entre a <strong>90°</strong> — atinge o levantador do lábio superior e/ou o LLSAN, abaixando
+suavemente o sorriso sem tirar a mobilidade do lábio. Média de <strong>10 a 20 U por
+ponto</strong>. <code>[revisar]</code></p>
+<blockquote>
+<p><strong>Por que evitar o músculo orbicular da boca:</strong> dependendo da quantidade aplicada,
+o paciente fica com aparência artificial ao sorrir.</p>
+</blockquote>
+<h3 id="107-nariz-musculo-nasal-e-bunny-lines">10.7 Nariz — músculo nasal e "bunny lines"</h3>
+<p>As rugas do nariz não são causadas apenas pelo músculo nasal; também participam o
+<strong>prócero</strong> e o <strong>LLSAN</strong>:
+- Linhas <strong>horizontais</strong> → principalmente o <strong>prócero</strong>.
+- Linhas <strong>verticais</strong> → principalmente o <strong>músculo nasal</strong>.
+- Linhas <strong>oblíquas</strong> → principalmente o <strong>LLSAN</strong>.</p>
+<hr />
+<h2 id="fontes-citadas-no-material">Fontes citadas no material</h2>
+<ul>
+<li>Costa et al. (estudo de HIS) — <em>citação parcial</em></li>
+<li>Cotofana et al. (2020) — linha de convergência</li>
+<li>Braz e Sakuma (2010) — padrões de contração frontal</li>
+<li>Zarins (2021) — origem e inserção dos músculos</li>
+<li>Goodman et al. (2021) — cuidado com o contato ósseo</li>
+<li>Cohen (2021) — intercorrência/necrose</li>
+<li>Polícia Civil RS (pc.rs.gov.br) — caso Israderm</li>
+</ul>
+  </main>
+</div>
+</body>
+</html>

@@ -11,6 +11,32 @@
 
 ---
 
+## ⚡ PROMPT DE EXECUÇÃO (versão enxuta — uso no dia a dia)
+
+> A estrutura do squad já está definida abaixo. No dia a dia, é só colar este texto curto,
+> anexar o PDF e rodar. O período é **aberto** — o squad usa o intervalo do material.
+
+```
+EXECUTE o Open Squad do Instituto Venere. A estrutura de agentes, o tom de voz,
+as séries, o mix de pilares e o formato de entrega JÁ ESTÃO DEFINIDOS — mantenha
+tudo como está.
+
+Sua tarefa agora:
+1. BUSCAR as informações: leia o PDF anexado (eventos e aulas) e levante as
+   tendências atuais do nicho de estética avançada.
+2. DEFINIR o que precisa ser desenvolvido — o período é ABERTO: use o intervalo
+   coberto pelo material/PDF (ou o que eu indicar abaixo).
+3. PRODUZIR todo o conteúdo sem deixar passar nenhum tipo de material (e-mail/
+   WhatsApp, feed, reels, stories — que engaja, interage, ensina e diverte).
+4. ENTREGAR: primeiro o HTML completo para aprovação do Social Media; depois o
+   XLS de 3 abas no formato oficial, pronto pro app.
+
+(opcional) Período: {{deixe em branco p/ usar o do PDF, ou ex: 18/06 → 18/07}}
+(opcional) Foco/lançamento: {{ex: turma Pós Integrativa, MBA warming...}}
+```
+
+---
+
 ## 1. 🎯 OBJETIVO DO SQUAD
 
 Operar como uma **fábrica de conteúdo completa** garantindo que **nenhum tipo de material

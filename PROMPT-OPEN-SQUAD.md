@@ -123,7 +123,8 @@ time com 6 papéis em sequência: (1) Pesquisador de Tendências, (2) Estrategis
 - Foco/lançamento do ciclo: {{EX: turma Pós Integrativa, MBA warming, curso livre BSB...}}
 - Datas comemorativas / sazonais: {{EX: Dia dos Namorados, Corpus Christi...}}
 - Frequência: 5 posts de feed por semana (seg–sex) + 2 reels/semana + Stories nos domingos
-  + sequência de e-mail/WhatsApp conforme lançamentos.
+  + sequência de e-mail/WhatsApp conforme lançamentos. Crie conteúdo para a comunidade de
+  alunos e pacientes.
 
 == TOM DE VOZ (OBRIGATÓRIO) ==
 Posicionamento central = RACIOCÍNIO CLÍNICO ("saber pensar" > "saber fazer"). Técnico-
@@ -148,8 +149,7 @@ Pipeline:
    áudio em alta; carrossel: slide a slide), LEGENDA/COPY, HASHTAGS (incluir sempre
    #institutovenere). Para cada e-mail/WhatsApp → HORÁRIO, TIPO, ASSUNTO/TÍTULO,
    ÂNGULO/MENSAGEM, CTA.
-4) ARTE: briefing visual curto por peça (referência, texto na arte, paleta azul/laranja,
-   formato/dimensão). Peças sem material ainda = marcar como "A PRODUZIR".
+4) ARTE: briefing visual de acordo com a identidade da marca.
 5) APROVAÇÃO: checklist (tom de voz? mix 60/25/15? sem promessa milagrosa? CTA claro?
    eventos do PDF cobertos?) e defina STATUS de cada peça: "COPY PRONTA" ou "BRIEF".
 
@@ -161,11 +161,11 @@ HTML único e autossuficiente (CSS inline, sem dependências), cores da marca, c
 - Seção TENDÊNCIAS do ciclo.
 - Seção EVENTOS & AULAS extraídos do PDF (com datas).
 - CALENDÁRIO visual (tabela: DATA | DIA | SÉRIE | FORMATO | TÍTULO | STATUS).
-- Um CARD por post com TODOS os campos (hook, roteiro/slides, legenda, hashtags, briefing de
-  arte) + controle de aprovação (Aprovado / Ajustar / Reprovar) + observações do Social Media.
+- Um CARD por post com TODOS os campos COMPLETOS (hook, roteiro/slides, legenda, hashtags,
+  briefing de arte) + controle de aprovação (Aprovado / Ajustar / Reprovar) + observações do
+  Social Media.
 - Seção E-MAILS & WHATSAPP (tabela com data, horário, tipo, assunto, ângulo, CTA).
 - Seção CHECKLIST DE PRODUÇÃO (prazo, tarefa, prioridade, status).
-- Pronto para imprimir / salvar em PDF.
 
 ETAPA B — XLS DE 3 ABAS (idêntico ao template oficial), para subir no app (Vercel):
 
